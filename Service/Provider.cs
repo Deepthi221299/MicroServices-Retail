@@ -1,0 +1,48 @@
+﻿using Microsoft.Extensions.Configuration;
+using ProceedToBuy.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+namespace ProceedToBuy.Service
+{
+    public class Provider:IProvider
+    {
+        private IConfiguration _configure;
+        static private string apiBaseUrl;
+        public Provider(IConfiguration configure)
+        {
+            _configure = configure;
+            apiBaseUrl = _configure.GetValue<string>("WebAPIBaseUrl");
+        }
+        public Vendor GetVendors(int productId)
+        {
+            IList<Vendor> vendors = null;
+            string apiBaseUrl = $"https://localhost:44330/api/Vendor/{productId}";
+            using (var client=new HttpClient())
+            {
+                client.BaseAddress = new Uri(apiBaseUrl);
+                //string api = "Vendor/" + productId;
+                var responseTask = client.GetAsync(apiBaseUrl);
+                responseTask.Wait();
+                var result = responseTask.Result;
+                if(result.IsSuccessStatusCode)
+                {
+                    var readData = result.Content.ReadAsAsync<IList<Vendor>>();
+                    readData.Wait();
+                    vendors = readData.Result;
+                }
+            }
+            if(vendors.Count>0)
+            {
+                int max = vendors.Max(v => v.Rating);
+                Vendor vendor = vendors.FirstOrDefault(v => v.Rating == max);
+                return vendor;
+
+            }
+            return null;
+        }
+    }
+}
