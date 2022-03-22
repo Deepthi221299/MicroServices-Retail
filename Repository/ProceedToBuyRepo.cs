@@ -3,11 +3,13 @@ using ProceedToBuy.Models;
 using ProceedToBuy.Service;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace ProceedToBuy.Repository
 {
+    [ExcludeFromCodeCoverage]
     public class ProceedToBuyRepo:IProceedToBuyRepo<Cart>
     {
         IProvider _provider;
@@ -17,21 +19,22 @@ namespace ProceedToBuy.Repository
             _proceedToBuyContext = proceedToBuyContext;
             _provider = provider;
         }
+
         public List<Cart> GetCart()
         {
             return _proceedToBuyContext.Carts.ToList();
         }
         public bool AddToCart(Cart _cart)
         {
-            var vendor = _provider.GetVendors(_cart.ProductId);
+            List<Vendor> vendor = _provider.GetVendors(_cart.ProductId);
             if(vendor==null)
             {
-                AddToWishList(_cart.CustomerId, _cart.ProductId);
+                AddToWishList(_cart.CustomerId, _cart.ProductId,_cart.Quantity,_cart.VendorId);
                 return false;
             }
             else
             {
-                _cart.VendorId = vendor.Id;
+               // _cart.VendorId = vendor.Id;
                 Cart val = _proceedToBuyContext.Carts.SingleOrDefault(c => c.CustomerId == _cart.CustomerId && c.ProductId == _cart.ProductId);
                 if (val != null)
                 {
@@ -43,39 +46,42 @@ namespace ProceedToBuy.Repository
             }
             return true;
         }
-        public bool AddToWishList(int customerId,int productId)
+        public bool AddToWishList(int customerId,int productId,int quantity,int vendorid)
         {
             VendorWishlist vendorWishlist = new VendorWishlist();
             vendorWishlist.CustomerId = customerId;
             vendorWishlist.ProductId = productId;
-            vendorWishlist.Quantity = 1;
+            vendorWishlist.Quantity = quantity;
             vendorWishlist.DateAddedToWishlist = DateTime.Now;
-            vendorWishlist.VendorId = 7;
+            vendorWishlist.VendorId = vendorid;
             _proceedToBuyContext.VendorWishlists.Add(vendorWishlist);
             _proceedToBuyContext.SaveChanges();
             return true;
         }
-        public List<VendorWishlist> GetWishlist(int id)
+        public List<VendorWishlist> GetWishlist()
         {
-            return _proceedToBuyContext.VendorWishlists.Where(v => v.CustomerId == id).ToList();
+            return _proceedToBuyContext.VendorWishlists.ToList();
         }
+        public List<Vendor> GetVendor(int productId)
+        {
+            List<Vendor> v = _provider.GetVendors(productId);
+            return v;
+        }
+
         public bool DeleteCustomerCart(int customerId)
         {
+
             List<Cart> cart = GetCart();
-            foreach(Cart item in cart)
+            foreach (Cart item in cart)
             {
                 if (item.CustomerId == customerId)
                     _proceedToBuyContext.Carts.Remove(item);
             }
+
             _proceedToBuyContext.SaveChanges();
+
             return true;
         }
-        public bool DeleteCartById(int cartId)
-        {
-            Cart cart = GetCart().SingleOrDefault(x => x.CartId == cartId);
-            _proceedToBuyContext.Carts.Remove(cart);
-            _proceedToBuyContext.SaveChanges();
-            return true;
-        }
+
     }
 }

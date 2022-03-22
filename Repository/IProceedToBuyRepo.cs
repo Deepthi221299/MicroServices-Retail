@@ -10,10 +10,11 @@ namespace ProceedToBuy.Repository
     {
         public bool AddToCart(Cart t);
         public List<Cart> GetCart();
-        public bool AddToWishList(int customerId, int productId);
-
-        public List<VendorWishlist> GetWishlist(int id);
+        public bool AddToWishList(int customerId, int productId, int quantity, int vendorid);
+        public List<VendorWishlist> GetWishlist();
+        public List<Vendor> GetVendor(int productId);
         public bool DeleteCustomerCart(int customerId);
-        public bool DeleteCartById(int cartId);
+
+
     }
 }

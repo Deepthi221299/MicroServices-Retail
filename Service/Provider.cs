@@ -2,12 +2,14 @@
 using ProceedToBuy.Models;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace ProceedToBuy.Service
 {
+    [ExcludeFromCodeCoverage]
     public class Provider:IProvider
     {
         private IConfiguration _configure;
@@ -17,10 +19,11 @@ namespace ProceedToBuy.Service
             _configure = configure;
             apiBaseUrl = _configure.GetValue<string>("WebAPIBaseUrl");
         }
-        public Vendor GetVendors(int productId)
+        public List<Vendor> GetVendors(int productId)
         {
             IList<Vendor> vendors = null;
-            string apiBaseUrl = $"https://localhost:44330/api/Vendor/{productId}";
+            //string apiBaseUrl = $"https://localhost:44330/api/Vendor/{productId}";
+            string apiBaseUrl = $"{_configure["ExternalURI:Vendorapi"]}/api/Vendor/{productId}";
             using (var client=new HttpClient())
             {
                 client.BaseAddress = new Uri(apiBaseUrl);
@@ -34,15 +37,18 @@ namespace ProceedToBuy.Service
                     readData.Wait();
                     vendors = readData.Result;
                 }
+
             }
+
             if(vendors.Count>0)
             {
-                int max = vendors.Max(v => v.Rating);
-                Vendor vendor = vendors.FirstOrDefault(v => v.Rating == max);
-                return vendor;
+               // List<Vendor> vendor = new List<Vendor>();
+                //List<Vendor> v = vendor.Where(v => v.Id == productId).ToList();
+                return vendors.ToList();
 
             }
             return null;
         }
+        
     }
 }

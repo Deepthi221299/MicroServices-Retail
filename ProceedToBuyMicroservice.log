@@ -2,3 +2,2149 @@ INFO  12:21:20 Application started. Press Ctrl+C to shut down.
 INFO  12:21:20 Hosting environment: Development
 INFO  12:21:20 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
 INFO  12:21:25 Getting Started
+INFO  01:32:12 Application started. Press Ctrl+C to shut down.
+INFO  01:32:12 Hosting environment: Development
+INFO  01:32:12 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+ERROR 01:32:13 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/ProceedToBuy" for actions - ProceedToBuy.Controllers.ProceedToBuyController.GetVendorDetails (ProceedToBuy),ProceedToBuy.Controllers.ProceedToBuyController.GetAllCarts (ProceedToBuy). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:34:25 Application started. Press Ctrl+C to shut down.
+INFO  01:34:25 Hosting environment: Development
+INFO  01:34:25 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+ERROR 01:34:35 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'ProceedToBuy.Controllers.ProceedToBuyController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:35:18 Application started. Press Ctrl+C to shut down.
+INFO  01:35:18 Hosting environment: Development
+INFO  01:35:18 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  01:35:34 Getting Started
+INFO  01:35:34 ProductToBuyController - GetAllCarts
+INFO  01:35:35 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:40:45 Application started. Press Ctrl+C to shut down.
+INFO  01:40:45 Hosting environment: Development
+INFO  01:40:45 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+ERROR 01:40:45 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ProceedToBuy.Controllers.ProceedToBuyController.GetVendorDetails (ProceedToBuy). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:41:44 Application started. Press Ctrl+C to shut down.
+INFO  01:41:44 Hosting environment: Development
+INFO  01:41:44 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  01:42:31 Getting Started
+INFO  01:42:31 ProductToBuyController - GetAllCarts
+INFO  01:42:32 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:42:41 Getting Started
+INFO  01:43:01 Getting Started
+INFO  01:43:05 Getting Started
+INFO  02:01:32 Application started. Press Ctrl+C to shut down.
+INFO  02:01:32 Hosting environment: Development
+INFO  02:01:32 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  02:01:39 Getting Started
+INFO  02:01:39 ProductToBuyController - GetAllCarts
+INFO  02:01:40 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  02:02:45 Getting Started
+INFO  02:02:46 Controller ready for creating new record 
+INFO  02:03:39 Getting Started
+INFO  02:03:39 Controller ready for creating new record 
+INFO  03:29:38 Application started. Press Ctrl+C to shut down.
+INFO  03:29:38 Hosting environment: Development
+INFO  03:29:38 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+ERROR 03:29:39 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/ProceedToBuy" for actions - ProceedToBuy.Controllers.ProceedToBuyController.GetAllCarts (ProceedToBuy),ProceedToBuy.Controllers.ProceedToBuyController.GetAllWishList (ProceedToBuy). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  03:30:44 Application started. Press Ctrl+C to shut down.
+INFO  03:30:44 Hosting environment: Development
+INFO  03:30:44 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  03:30:51 Getting Started
+INFO  03:30:51 ProductToBuyController - GetAllCarts
+INFO  03:30:52 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:31:01 Getting Started
+INFO  03:31:01 ProductToBuyController - GetAllCarts
+INFO  03:31:01 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:32:55 Getting Started
+INFO  03:32:55 Controller ready for creating new record 
+INFO  03:33:07 Getting Started
+INFO  03:33:07 ProductToBuyController - GetAllCarts
+INFO  03:33:07 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:33:39 Application started. Press Ctrl+C to shut down.
+INFO  03:33:39 Hosting environment: Development
+INFO  03:33:39 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  03:33:49 Getting Started
+INFO  03:33:49 ProductToBuyController - GetAllCarts
+INFO  03:33:50 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:34:19 Getting Started
+INFO  03:34:19 Controller ready for creating new record 
+INFO  03:34:31 Getting Started
+INFO  03:34:31 ProductToBuyController - GetAllCarts
+INFO  03:34:31 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:41:27 Application started. Press Ctrl+C to shut down.
+INFO  03:41:27 Hosting environment: Development
+INFO  03:41:27 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  03:41:41 Getting Started
+INFO  03:42:28 Getting Started
+INFO  03:42:28 Controller ready for creating new record 
+INFO  03:42:40 Getting Started
+INFO  03:42:40 ProductToBuyController - GetAllCarts
+INFO  03:42:40 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:43:04 Getting Started
+INFO  03:43:04 Controller ready for creating new record 
+INFO  03:43:20 Getting Started
+INFO  03:43:20 ProductToBuyController - GetAllCarts
+INFO  03:43:20 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:51:06 Application started. Press Ctrl+C to shut down.
+INFO  03:51:06 Hosting environment: Development
+INFO  03:51:06 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  03:52:42 Application started. Press Ctrl+C to shut down.
+INFO  03:52:42 Hosting environment: Development
+INFO  03:52:42 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  03:52:51 Getting Started
+INFO  03:52:51 ProductToBuyController - GetAllCarts
+INFO  03:52:52 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:53:13 Getting Started
+INFO  03:53:49 Getting Started
+INFO  03:53:49 Controller ready for creating new record 
+INFO  03:54:01 Getting Started
+INFO  03:54:01 ProductToBuyController - GetAllCarts
+INFO  03:54:01 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:55:30 Application started. Press Ctrl+C to shut down.
+INFO  03:55:30 Hosting environment: Development
+INFO  03:55:30 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+ERROR 03:55:30 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ProceedToBuy.Controllers.ProceedToBuyController.GetVendorDetails (ProceedToBuy). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  03:58:41 Application started. Press Ctrl+C to shut down.
+INFO  03:58:41 Hosting environment: Development
+INFO  03:58:41 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  03:59:47 Application started. Press Ctrl+C to shut down.
+INFO  03:59:47 Hosting environment: Development
+INFO  03:59:47 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  04:01:22 Application started. Press Ctrl+C to shut down.
+INFO  04:01:22 Hosting environment: Development
+INFO  04:01:22 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  04:02:23 Getting Started
+INFO  04:02:23 Controller ready for creating new record 
+INFO  04:02:34 Getting Started
+INFO  04:02:34 ProductToBuyController - GetAllCarts
+INFO  04:02:34 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:41:01 Application started. Press Ctrl+C to shut down.
+INFO  03:41:01 Hosting environment: Development
+INFO  03:41:01 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  03:41:12 Getting Started
+INFO  03:41:12 ProductToBuyController - GetAllCarts
+INFO  03:41:13 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:41:24 Getting Started
+INFO  04:30:34 Application started. Press Ctrl+C to shut down.
+INFO  04:30:34 Hosting environment: Development
+INFO  04:30:34 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  04:39:04 Getting Started
+INFO  04:39:04 ProductToBuyController - GetAllCarts
+INFO  04:39:06 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:39:41 Getting Started
+INFO  04:39:41 ProductToBuyController - GetAllCarts
+INFO  04:39:41 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  04:39:45 Getting Started
+INFO  04:39:46 ProductToBuyController - GetAllCarts
+INFO  04:39:46 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  04:41:45 Getting Started
+INFO  04:41:45 Controller ready for creating new record 
+INFO  04:44:33 Application started. Press Ctrl+C to shut down.
+INFO  04:44:33 Hosting environment: Development
+INFO  04:44:33 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  05:05:33 Application started. Press Ctrl+C to shut down.
+INFO  05:05:33 Hosting environment: Development
+INFO  05:05:33 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  05:06:09 Getting Started
+INFO  05:06:09 Getting Started
+INFO  05:06:09 ProductToBuyController - GetAllCarts
+INFO  05:06:09 ProductToBuyController - GetAllCarts
+INFO  05:06:11 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  05:06:11 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  06:06:10 Getting Started
+INFO  06:06:10 Getting Started
+INFO  06:06:10 ProductToBuyController - GetAllCarts
+INFO  06:06:10 ProductToBuyController - GetAllCarts
+INFO  06:06:10 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  06:06:10 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  09:15:42 Application started. Press Ctrl+C to shut down.
+INFO  09:15:42 Hosting environment: Development
+INFO  09:15:42 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  09:21:37 Getting Started
+INFO  09:21:37 ProductToBuyController - GetAllCarts
+INFO  09:21:40 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:23:05 Getting Started
+INFO  09:23:05 Controller ready for creating new record 
+INFO  09:44:04 Application started. Press Ctrl+C to shut down.
+INFO  09:44:04 Hosting environment: Development
+INFO  09:44:04 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  11:07:07 Application started. Press Ctrl+C to shut down.
+INFO  11:07:07 Hosting environment: Development
+INFO  11:07:07 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  11:12:46 Application started. Press Ctrl+C to shut down.
+INFO  11:12:46 Hosting environment: Development
+INFO  11:12:46 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  11:15:44 Getting Started
+INFO  11:15:44 ProductToBuyController - GetAllCarts
+INFO  11:15:47 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:17:27 Getting Started
+INFO  11:17:27 Controller ready for creating new record 
+INFO  11:30:58 Application started. Press Ctrl+C to shut down.
+INFO  11:30:58 Hosting environment: Development
+INFO  11:30:58 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  11:31:39 Getting Started
+INFO  11:31:39  ProceedToBuyController- Addding to WishList
+INFO  11:32:52 Getting Started
+INFO  11:32:52 ProductToBuyController - GetAllCarts
+INFO  11:32:52 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:33:57 Getting Started
+INFO  11:35:58 Application started. Press Ctrl+C to shut down.
+INFO  11:35:58 Hosting environment: Development
+INFO  11:35:58 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  11:36:17 Getting Started
+INFO  11:45:59 Getting Started
+INFO  11:45:59 ProductToBuyController - GetAllCarts
+INFO  11:46:00 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:46:48 Getting Started
+INFO  11:46:48 ProductToBuyController - GetAllCarts
+INFO  11:46:49 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:46:59 Getting Started
+INFO  11:46:59 ProductToBuyController - GetAllCarts
+INFO  11:46:59 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:47:20 Getting Started
+INFO  11:47:20 ProductToBuyController - GetAllCarts
+INFO  11:47:20 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:47:24 Getting Started
+INFO  11:47:24 ProductToBuyController - GetAllCarts
+INFO  11:47:24 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:47:32 Getting Started
+INFO  11:47:32 ProductToBuyController - GetAllCarts
+INFO  11:47:32 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:47:40 Getting Started
+INFO  11:47:40 ProductToBuyController - GetAllCarts
+INFO  11:47:40 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:48:38 Getting Started
+INFO  11:48:38 ProductToBuyController - GetAllCarts
+INFO  11:48:38 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:49:52 Getting Started
+INFO  11:49:52 ProductToBuyController - GetAllCarts
+INFO  11:49:52 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:49:53 Getting Started
+INFO  11:49:53 ProductToBuyController - GetAllCarts
+INFO  11:49:53 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:49:59 Getting Started
+INFO  11:49:59 ProductToBuyController - GetAllCarts
+INFO  11:49:59 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:50:10 Getting Started
+INFO  11:50:10 ProductToBuyController - GetAllCarts
+INFO  11:50:10 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:50:15 Getting Started
+INFO  11:50:15 ProductToBuyController - GetAllCarts
+INFO  11:50:15 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:50:23 Getting Started
+INFO  11:50:23 ProductToBuyController - GetAllCarts
+INFO  11:50:23 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:50:27 Getting Started
+INFO  11:50:27 ProductToBuyController - GetAllCarts
+INFO  11:50:27 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:50:30 Getting Started
+INFO  11:50:30 ProductToBuyController - GetAllCarts
+INFO  11:50:30 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:50:33 Getting Started
+INFO  11:50:33 ProductToBuyController - GetAllCarts
+INFO  11:50:33 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:50:36 Getting Started
+INFO  11:50:36 ProductToBuyController - GetAllCarts
+INFO  11:50:36 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:50:39 Getting Started
+INFO  11:50:39 ProductToBuyController - GetAllCarts
+INFO  11:50:39 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:50:48 Getting Started
+INFO  11:50:48 ProductToBuyController - GetAllCarts
+INFO  11:50:48 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:50:51 Getting Started
+INFO  11:50:51 ProductToBuyController - GetAllCarts
+INFO  11:50:51 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:51:19 Getting Started
+INFO  11:51:19 ProductToBuyController - GetAllCarts
+INFO  11:51:19 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:51:30 Getting Started
+INFO  11:51:30 ProductToBuyController - GetAllCarts
+INFO  11:51:30 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:51:36 Getting Started
+INFO  11:51:36 ProductToBuyController - GetAllCarts
+INFO  11:51:36 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:51:40 Getting Started
+INFO  11:51:40 ProductToBuyController - GetAllCarts
+INFO  11:51:40 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:51:42 Getting Started
+INFO  11:51:42 ProductToBuyController - GetAllCarts
+INFO  11:51:42 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:51:47 Getting Started
+INFO  11:51:47 ProductToBuyController - GetAllCarts
+INFO  11:51:47 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:51:56 Getting Started
+INFO  11:51:56 ProductToBuyController - GetAllCarts
+INFO  11:51:56 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:52:24 Getting Started
+INFO  11:52:24 ProductToBuyController - GetAllCarts
+INFO  11:52:24 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:52:32 Getting Started
+INFO  11:52:32 ProductToBuyController - GetAllCarts
+INFO  11:52:32 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:52:35 Getting Started
+INFO  11:52:35 ProductToBuyController - GetAllCarts
+INFO  11:52:35 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:52:38 Getting Started
+INFO  11:52:38 ProductToBuyController - GetAllCarts
+INFO  11:52:38 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:52:40 Getting Started
+INFO  11:52:40 ProductToBuyController - GetAllCarts
+INFO  11:52:40 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:52:43 Getting Started
+INFO  11:52:43 ProductToBuyController - GetAllCarts
+INFO  11:52:43 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:52:46 Getting Started
+INFO  11:52:46 ProductToBuyController - GetAllCarts
+INFO  11:52:46 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:52:48 Getting Started
+INFO  11:52:48 ProductToBuyController - GetAllCarts
+INFO  11:52:48 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:52:51 Getting Started
+INFO  11:52:51 ProductToBuyController - GetAllCarts
+INFO  11:52:51 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:52:53 Getting Started
+INFO  11:52:53 ProductToBuyController - GetAllCarts
+INFO  11:52:53 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:52:57 Getting Started
+INFO  11:52:57 ProductToBuyController - GetAllCarts
+INFO  11:52:57 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:52:59 Getting Started
+INFO  11:52:59 ProductToBuyController - GetAllCarts
+INFO  11:52:59 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:54:48 Getting Started
+INFO  11:54:48 ProductToBuyController - GetAllCarts
+INFO  11:54:48 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:55:44 Getting Started
+INFO  11:55:44 ProductToBuyController - GetAllCarts
+INFO  11:55:44 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:55:54 Getting Started
+INFO  11:55:54 ProductToBuyController - GetAllCarts
+INFO  11:55:54 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:56:13 Getting Started
+INFO  11:56:13 ProductToBuyController - GetAllCarts
+INFO  11:56:13 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:57:34 Getting Started
+INFO  11:57:34 ProductToBuyController - GetAllCarts
+INFO  11:57:34 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:58:33 Getting Started
+INFO  11:58:33 ProductToBuyController - GetAllCarts
+INFO  11:58:33 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:58:50 Getting Started
+INFO  11:58:50 ProductToBuyController - GetAllCarts
+INFO  11:58:50 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:59:14 Getting Started
+INFO  11:59:14 ProductToBuyController - GetAllCarts
+INFO  11:59:14 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:59:34 Getting Started
+INFO  11:59:34 ProductToBuyController - GetAllCarts
+INFO  11:59:34 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:59:35 Getting Started
+INFO  11:59:35 ProductToBuyController - GetAllCarts
+INFO  11:59:35 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:59:39 Getting Started
+INFO  11:59:39 ProductToBuyController - GetAllCarts
+INFO  11:59:39 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:00:11 Getting Started
+INFO  12:00:11 ProductToBuyController - GetAllCarts
+INFO  12:00:11 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:00:38 Getting Started
+INFO  12:00:38 ProductToBuyController - GetAllCarts
+INFO  12:00:38 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:00:51 Getting Started
+INFO  12:00:51 ProductToBuyController - GetAllCarts
+INFO  12:00:51 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:00:54 Getting Started
+INFO  12:00:54 ProductToBuyController - GetAllCarts
+INFO  12:00:54 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:00:56 Getting Started
+INFO  12:00:56 ProductToBuyController - GetAllCarts
+INFO  12:00:56 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:01:00 Getting Started
+INFO  12:01:00 ProductToBuyController - GetAllCarts
+INFO  12:01:00 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:01:35 Getting Started
+INFO  12:01:35 ProductToBuyController - GetAllCarts
+INFO  12:01:35 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:01:43 Getting Started
+INFO  12:01:43 ProductToBuyController - GetAllCarts
+INFO  12:01:43 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:01:48 Getting Started
+INFO  12:01:48 ProductToBuyController - GetAllCarts
+INFO  12:01:48 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:01:55 Getting Started
+INFO  12:01:55 ProductToBuyController - GetAllCarts
+INFO  12:01:55 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:02:12 Getting Started
+INFO  12:02:12 ProductToBuyController - GetAllCarts
+INFO  12:02:12 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:02:43 Getting Started
+INFO  12:02:43 ProductToBuyController - GetAllCarts
+INFO  12:02:43 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:03:01 Getting Started
+INFO  12:03:01 ProductToBuyController - GetAllCarts
+INFO  12:03:01 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:03:09 Getting Started
+INFO  12:03:09 ProductToBuyController - GetAllCarts
+INFO  12:03:09 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:03:11 Getting Started
+INFO  12:03:11 ProductToBuyController - GetAllCarts
+INFO  12:03:11 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:03:13 Getting Started
+INFO  12:03:13 ProductToBuyController - GetAllCarts
+INFO  12:03:13 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:03:15 Getting Started
+INFO  12:03:15 ProductToBuyController - GetAllCarts
+INFO  12:03:15 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:03:16 Getting Started
+INFO  12:03:16 ProductToBuyController - GetAllCarts
+INFO  12:03:16 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:03:19 Getting Started
+INFO  12:03:19 ProductToBuyController - GetAllCarts
+INFO  12:03:19 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:05:18 Getting Started
+INFO  12:05:18 ProductToBuyController - GetAllCarts
+INFO  12:05:18 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:05:22 Getting Started
+INFO  12:05:22 ProductToBuyController - GetAllCarts
+INFO  12:05:22 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:05:24 Getting Started
+INFO  12:05:24 ProductToBuyController - GetAllCarts
+INFO  12:05:24 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:05:53 Getting Started
+INFO  12:05:53 ProductToBuyController - GetAllCarts
+INFO  12:05:53 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:06:01 Getting Started
+INFO  12:06:01 ProductToBuyController - GetAllCarts
+INFO  12:06:01 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:06:41 Getting Started
+INFO  12:06:41 ProductToBuyController - GetAllCarts
+INFO  12:06:41 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:07:14 Getting Started
+INFO  12:07:14 ProductToBuyController - GetAllCarts
+INFO  12:07:14 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:07:15 Getting Started
+INFO  12:07:15 ProductToBuyController - GetAllCarts
+INFO  12:07:15 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:07:32 Getting Started
+INFO  12:07:32 ProductToBuyController - GetAllCarts
+INFO  12:07:32 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:07:33 Getting Started
+INFO  12:07:33 ProductToBuyController - GetAllCarts
+INFO  12:07:33 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:07:34 Getting Started
+INFO  12:07:34 ProductToBuyController - GetAllCarts
+INFO  12:07:34 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:08:11 Getting Started
+INFO  12:08:11 ProductToBuyController - GetAllCarts
+INFO  12:08:11 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:08:14 Getting Started
+INFO  12:08:14 ProductToBuyController - GetAllCarts
+INFO  12:08:14 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:08:15 Getting Started
+INFO  12:08:15 ProductToBuyController - GetAllCarts
+INFO  12:08:15 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:08:28 Getting Started
+INFO  12:08:28 ProductToBuyController - GetAllCarts
+INFO  12:08:28 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:08:30 Getting Started
+INFO  12:08:30 ProductToBuyController - GetAllCarts
+INFO  12:08:30 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:08:37 Getting Started
+INFO  12:08:37 ProductToBuyController - GetAllCarts
+INFO  12:08:37 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:08:41 Getting Started
+INFO  12:08:41 ProductToBuyController - GetAllCarts
+INFO  12:08:41 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:09:00 Getting Started
+INFO  12:09:00 ProductToBuyController - GetAllCarts
+INFO  12:09:00 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:09:05 Getting Started
+INFO  12:09:05 ProductToBuyController - GetAllCarts
+INFO  12:09:05 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:12:17 Getting Started
+INFO  12:12:17 ProductToBuyController - GetAllCarts
+INFO  12:12:17 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:21:47 Getting Started
+INFO  12:21:47 ProductToBuyController - GetAllCarts
+INFO  12:21:48 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:21:55 Getting Started
+INFO  12:21:55 ProductToBuyController - GetAllCarts
+INFO  12:21:55 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:22:04 Getting Started
+INFO  12:22:04 ProductToBuyController - GetAllCarts
+INFO  12:22:04 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:22:17 Getting Started
+INFO  12:22:17 ProductToBuyController - GetAllCarts
+INFO  12:22:17 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:25:15 Getting Started
+INFO  12:25:15 ProductToBuyController - GetAllCarts
+INFO  12:25:15 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:26:58 Getting Started
+INFO  12:26:58 ProductToBuyController - GetAllCarts
+INFO  12:26:58 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:28:35 Getting Started
+INFO  12:28:35 ProductToBuyController - GetAllCarts
+INFO  12:28:35 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:30:14 Getting Started
+INFO  12:30:14 ProductToBuyController - GetAllCarts
+INFO  12:30:14 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:30:17 Getting Started
+INFO  12:30:17 ProductToBuyController - GetAllCarts
+INFO  12:30:17 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:30:19 Getting Started
+INFO  12:30:19 ProductToBuyController - GetAllCarts
+INFO  12:30:19 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:30:36 Getting Started
+INFO  12:30:36 ProductToBuyController - GetAllCarts
+INFO  12:30:36 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:30:43 Getting Started
+INFO  12:30:43 ProductToBuyController - GetAllCarts
+INFO  12:30:43 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:30:47 Getting Started
+INFO  12:30:47 ProductToBuyController - GetAllCarts
+INFO  12:30:47 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:30:51 Getting Started
+INFO  12:30:51 ProductToBuyController - GetAllCarts
+INFO  12:30:51 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:30:53 Getting Started
+INFO  12:30:53 ProductToBuyController - GetAllCarts
+INFO  12:30:53 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:31:01 Getting Started
+INFO  12:31:01 ProductToBuyController - GetAllCarts
+INFO  12:31:01 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:31:05 Getting Started
+INFO  12:31:05 ProductToBuyController - GetAllCarts
+INFO  12:31:05 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:31:18 Getting Started
+INFO  12:31:18 ProductToBuyController - GetAllCarts
+INFO  12:31:18 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:31:19 Getting Started
+INFO  12:31:19 ProductToBuyController - GetAllCarts
+INFO  12:31:19 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:31:26 Getting Started
+INFO  12:31:26 ProductToBuyController - GetAllCarts
+INFO  12:31:26 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:31:53 Getting Started
+INFO  12:31:53 ProductToBuyController - GetAllCarts
+INFO  12:31:53 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:32:00 Getting Started
+INFO  12:32:00 ProductToBuyController - GetAllCarts
+INFO  12:32:00 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:32:12 Getting Started
+INFO  12:32:12 ProductToBuyController - GetAllCarts
+INFO  12:32:12 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:32:18 Getting Started
+INFO  12:32:18 ProductToBuyController - GetAllCarts
+INFO  12:32:18 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:32:20 Getting Started
+INFO  12:32:20 ProductToBuyController - GetAllCarts
+INFO  12:32:20 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:32:22 Getting Started
+INFO  12:32:22 ProductToBuyController - GetAllCarts
+INFO  12:32:22 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:32:28 Getting Started
+INFO  12:32:28 ProductToBuyController - GetAllCarts
+INFO  12:32:29 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:32:31 Getting Started
+INFO  12:32:31 ProductToBuyController - GetAllCarts
+INFO  12:32:31 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:32:35 Getting Started
+INFO  12:32:35 ProductToBuyController - GetAllCarts
+INFO  12:32:35 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:32:37 Getting Started
+INFO  12:32:37 ProductToBuyController - GetAllCarts
+INFO  12:32:37 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:32:41 Getting Started
+INFO  12:32:41 ProductToBuyController - GetAllCarts
+INFO  12:32:41 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:32:50 Getting Started
+INFO  12:32:50 ProductToBuyController - GetAllCarts
+INFO  12:32:50 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:33:01 Getting Started
+INFO  12:33:01 ProductToBuyController - GetAllCarts
+INFO  12:33:01 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:33:05 Getting Started
+INFO  12:33:05 ProductToBuyController - GetAllCarts
+INFO  12:33:05 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:33:26 Getting Started
+INFO  12:33:26 ProductToBuyController - GetAllCarts
+INFO  12:33:26 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:34:15 Getting Started
+INFO  12:34:15 ProductToBuyController - GetAllCarts
+INFO  12:34:15 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:34:16 Getting Started
+INFO  12:34:16 ProductToBuyController - GetAllCarts
+INFO  12:34:16 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:34:21 Getting Started
+INFO  12:34:21 ProductToBuyController - GetAllCarts
+INFO  12:34:21 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:34:22 Getting Started
+INFO  12:34:22 ProductToBuyController - GetAllCarts
+INFO  12:34:22 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:34:26 Getting Started
+INFO  12:34:26 ProductToBuyController - GetAllCarts
+INFO  12:34:26 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:34:42 Getting Started
+INFO  12:34:42 ProductToBuyController - GetAllCarts
+INFO  12:34:42 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:34:50 Getting Started
+INFO  12:34:50 ProductToBuyController - GetAllCarts
+INFO  12:34:50 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:35:03 Getting Started
+INFO  12:35:03 ProductToBuyController - GetAllCarts
+INFO  12:35:03 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:35:27 Getting Started
+INFO  12:35:27 ProductToBuyController - GetAllCarts
+INFO  12:35:27 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:36:22 Getting Started
+INFO  12:36:22 ProductToBuyController - GetAllCarts
+INFO  12:36:22 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:36:24 Getting Started
+INFO  12:36:24 ProductToBuyController - GetAllCarts
+INFO  12:36:24 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:36:30 Getting Started
+INFO  12:36:30 ProductToBuyController - GetAllCarts
+INFO  12:36:30 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:36:57 Getting Started
+INFO  12:36:57 ProductToBuyController - GetAllCarts
+INFO  12:36:57 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:37:32 Getting Started
+INFO  12:37:32 ProductToBuyController - GetAllCarts
+INFO  12:37:32 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:37:35 Getting Started
+INFO  12:37:35 ProductToBuyController - GetAllCarts
+INFO  12:37:35 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:37:43 Getting Started
+INFO  12:37:43 ProductToBuyController - GetAllCarts
+INFO  12:37:43 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:38:05 Getting Started
+INFO  12:38:05 ProductToBuyController - GetAllCarts
+INFO  12:38:05 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:38:07 Getting Started
+INFO  12:38:07 ProductToBuyController - GetAllCarts
+INFO  12:38:07 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:38:16 Getting Started
+INFO  12:38:16 ProductToBuyController - GetAllCarts
+INFO  12:38:16 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:38:36 Getting Started
+INFO  12:38:36 ProductToBuyController - GetAllCarts
+INFO  12:38:36 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:39:41 Getting Started
+INFO  12:39:41 ProductToBuyController - GetAllCarts
+INFO  12:39:41 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:40:17 Getting Started
+INFO  12:40:17 ProductToBuyController - GetAllCarts
+INFO  12:40:17 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:40:22 Getting Started
+INFO  12:40:22 ProductToBuyController - GetAllCarts
+INFO  12:40:22 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:49:57 Getting Started
+INFO  12:49:57 ProductToBuyController - GetAllCarts
+INFO  12:49:57 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:49:58 Getting Started
+INFO  12:49:58 ProductToBuyController - GetAllCarts
+INFO  12:49:58 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:06:51 Application started. Press Ctrl+C to shut down.
+INFO  12:06:51 Hosting environment: Development
+INFO  12:06:51 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  12:09:41 Getting Started
+INFO  12:09:41 ProductToBuyController - GetAllCarts
+INFO  12:09:42 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:09:49 Getting Started
+INFO  12:09:49 ProductToBuyController - GetAllCarts
+INFO  12:09:49 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:17:29 Getting Started
+INFO  12:17:29 ProductToBuyController - GetAllCarts
+INFO  12:17:29 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:17:43 Getting Started
+INFO  12:17:43 ProductToBuyController - GetAllCarts
+INFO  12:17:43 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:28:03 Getting Started
+INFO  12:28:03 ProductToBuyController - GetAllCarts
+INFO  12:28:03 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:28:31 Getting Started
+INFO  12:28:31 ProductToBuyController - GetAllCarts
+INFO  12:28:31 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  01:15:17 Getting Started
+INFO  01:15:17 ProductToBuyController - GetAllCarts
+INFO  01:15:17 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:15:19 Getting Started
+INFO  01:15:19 ProductToBuyController - GetAllCarts
+INFO  01:15:19 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  01:17:00 Getting Started
+INFO  01:17:00 ProductToBuyController - GetAllCarts
+INFO  01:17:00 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:17:04 Getting Started
+INFO  01:17:04 ProductToBuyController - GetAllCarts
+INFO  01:17:04 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:14:50 Getting Started
+INFO  03:14:50 ProductToBuyController - GetAllCarts
+INFO  03:14:50 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:15:16 Getting Started
+INFO  03:15:16 ProductToBuyController - GetAllCarts
+INFO  03:15:16 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:06:59 Getting Started
+INFO  05:06:59 ProductToBuyController - GetAllCarts
+INFO  05:06:59 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:07:03 Getting Started
+INFO  05:07:03 ProductToBuyController - GetAllCarts
+INFO  05:07:03 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  06:21:22 Getting Started
+INFO  06:21:22 ProductToBuyController - GetAllCarts
+INFO  06:21:22 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  06:26:44 Getting Started
+INFO  06:26:44  ProceedToBuyController- Addding to WishList
+INFO  06:26:53 Getting Started
+INFO  06:26:53 ProductToBuyController - GetAllCarts
+INFO  06:26:53 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  06:33:52 Getting Started
+INFO  06:35:10 Getting Started
+INFO  06:50:38 Getting Started
+INFO  06:50:38 ProductToBuyController - GetAllCarts
+INFO  06:50:38 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  06:50:38 Getting Started
+INFO  06:50:38 ProductToBuyController - GetAllCarts
+INFO  06:50:38 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:59:00 Getting Started
+INFO  07:59:00 ProductToBuyController - GetAllCarts
+INFO  07:59:00 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:02:46 Getting Started
+INFO  08:02:46 ProductToBuyController - GetAllCarts
+INFO  08:02:46 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:20:21 Getting Started
+INFO  08:20:21 ProductToBuyController - GetAllCarts
+INFO  08:20:21 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:21:52 Getting Started
+INFO  08:21:52 ProductToBuyController - GetAllCarts
+INFO  08:21:52 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:23:44 Getting Started
+INFO  08:23:44 ProductToBuyController - GetAllCarts
+INFO  08:23:44 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:53:57 Getting Started
+INFO  08:53:57 ProductToBuyController - GetAllCarts
+INFO  08:53:57 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:55:08 Getting Started
+INFO  08:55:08 ProductToBuyController - GetAllCarts
+INFO  08:55:08 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  08:55:10 Getting Started
+INFO  08:55:10 ProductToBuyController - GetAllCarts
+INFO  08:55:10 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:55:28 Getting Started
+INFO  08:55:28 ProductToBuyController - GetAllCarts
+INFO  08:55:28 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:11:49 Getting Started
+INFO  09:11:49 ProductToBuyController - GetAllCarts
+INFO  09:11:49 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:15:40 Getting Started
+INFO  09:15:40 ProductToBuyController - GetAllCarts
+INFO  09:15:40 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:16:21 Getting Started
+INFO  09:16:21 ProductToBuyController - GetAllCarts
+INFO  09:16:21 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:17:10 Getting Started
+INFO  09:17:10 ProductToBuyController - GetAllCarts
+INFO  09:17:10 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:17:12 Getting Started
+INFO  09:17:12 ProductToBuyController - GetAllCarts
+INFO  09:17:12 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:17:13 Getting Started
+INFO  09:17:13 ProductToBuyController - GetAllCarts
+INFO  09:17:13 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:17:17 Getting Started
+INFO  09:17:17 ProductToBuyController - GetAllCarts
+INFO  09:17:17 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:25:39 Getting Started
+INFO  09:25:39 Controller ready for creating new record 
+INFO  09:31:00 Getting Started
+INFO  09:31:00 Controller ready for creating new record 
+INFO  09:31:22 Getting Started
+INFO  09:31:22 Controller ready for creating new record 
+INFO  09:33:44 Getting Started
+INFO  09:33:44 Controller ready for creating new record 
+INFO  09:33:55 Getting Started
+INFO  09:33:55 Controller ready for creating new record 
+INFO  09:34:52 Getting Started
+INFO  09:34:52 Controller ready for creating new record 
+INFO  09:35:21 Getting Started
+INFO  09:35:21 Controller ready for creating new record 
+INFO  09:53:21 Getting Started
+INFO  09:54:09 Getting Started
+INFO  09:54:09 Controller ready for creating new record 
+INFO  09:56:09 Getting Started
+INFO  09:56:09 Controller ready for creating new record 
+INFO  09:56:34 Getting Started
+INFO  09:56:34 Controller ready for creating new record 
+INFO  09:56:41 Getting Started
+INFO  09:56:41 Controller ready for creating new record 
+INFO  09:58:47 Getting Started
+INFO  09:58:47 Controller ready for creating new record 
+INFO  10:03:16 Application started. Press Ctrl+C to shut down.
+INFO  10:03:16 Hosting environment: Development
+INFO  10:03:16 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  10:03:33 Getting Started
+INFO  10:03:33 Controller ready for creating new record 
+INFO  10:04:23 Getting Started
+INFO  10:04:23 ProductToBuyController - GetAllCarts
+INFO  10:04:23 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:06:33 Getting Started
+INFO  10:06:33 ProductToBuyController - GetAllCarts
+INFO  10:06:33 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:08:20 Application started. Press Ctrl+C to shut down.
+INFO  10:08:20 Hosting environment: Development
+INFO  10:08:20 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  10:08:51 Getting Started
+INFO  10:08:51 Controller ready for creating new record 
+INFO  10:10:14 Getting Started
+INFO  10:10:14 ProductToBuyController - GetAllCarts
+INFO  10:10:14 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:10:28 Getting Started
+INFO  10:10:28 ProductToBuyController - GetAllCarts
+INFO  10:10:28 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:10:32 Getting Started
+INFO  10:10:32 ProductToBuyController - GetAllCarts
+INFO  10:10:32 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:10:35 Getting Started
+INFO  10:10:35 ProductToBuyController - GetAllCarts
+INFO  10:10:35 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:10:47 Getting Started
+INFO  10:12:36 Getting Started
+INFO  10:12:36 Controller ready for creating new record 
+INFO  10:16:38 Application started. Press Ctrl+C to shut down.
+INFO  10:16:38 Hosting environment: Development
+INFO  10:16:38 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  10:16:59 Getting Started
+INFO  10:16:59 Controller ready for creating new record 
+INFO  10:18:56 Getting Started
+INFO  10:18:56 ProductToBuyController - GetAllCarts
+INFO  10:18:56 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:21:47 Getting Started
+INFO  10:21:47 ProductToBuyController - GetAllCarts
+INFO  10:21:47 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:24:16 Getting Started
+INFO  10:24:16 ProductToBuyController - GetAllCarts
+INFO  10:24:16 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:27:47 Getting Started
+INFO  10:35:20 Getting Started
+INFO  10:35:20 ProductToBuyController - GetAllCarts
+INFO  10:35:20 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:35:48 Getting Started
+INFO  10:35:48 ProductToBuyController - GetAllCarts
+INFO  10:35:48 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:47:23 Getting Started
+INFO  10:47:23 ProductToBuyController - GetAllCarts
+INFO  10:47:23 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:47:41 Getting Started
+INFO  10:47:41 ProductToBuyController - GetAllCarts
+INFO  10:47:41 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:47:45 Getting Started
+INFO  10:47:45 ProductToBuyController - GetAllCarts
+INFO  10:47:45 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:48:01 Getting Started
+INFO  10:48:01 ProductToBuyController - GetAllCarts
+INFO  10:48:01 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:49:02 Getting Started
+INFO  10:49:02 ProductToBuyController - GetAllCarts
+INFO  10:49:02 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:49:35 Getting Started
+INFO  10:49:35 ProductToBuyController - GetAllCarts
+INFO  10:49:35 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:49:37 Getting Started
+INFO  10:49:37 ProductToBuyController - GetAllCarts
+INFO  10:49:37 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:49:39 Getting Started
+INFO  10:49:39 ProductToBuyController - GetAllCarts
+INFO  10:49:39 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:50:44 Getting Started
+INFO  10:50:44 ProductToBuyController - GetAllCarts
+INFO  10:50:44 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:50:47 Getting Started
+INFO  10:50:47 ProductToBuyController - GetAllCarts
+INFO  10:50:47 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:57:24 Getting Started
+INFO  10:57:24 ProductToBuyController - GetAllCarts
+INFO  10:57:24 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:57:42 Getting Started
+INFO  10:57:42 ProductToBuyController - GetAllCarts
+INFO  10:57:42 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:57:48 Getting Started
+INFO  10:57:48 ProductToBuyController - GetAllCarts
+INFO  10:57:48 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:58:09 Getting Started
+INFO  10:58:09 ProductToBuyController - GetAllCarts
+INFO  10:58:09 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:59:12 Getting Started
+INFO  10:59:12 ProductToBuyController - GetAllCarts
+INFO  10:59:12 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:59:45 Getting Started
+INFO  10:59:45 ProductToBuyController - GetAllCarts
+INFO  10:59:45 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:59:54 Getting Started
+INFO  10:59:54 ProductToBuyController - GetAllCarts
+INFO  10:59:54 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:00:06 Getting Started
+INFO  11:00:06 ProductToBuyController - GetAllCarts
+INFO  11:00:06 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:00:10 Getting Started
+INFO  11:00:10 ProductToBuyController - GetAllCarts
+INFO  11:00:10 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:00:19 Getting Started
+INFO  11:00:19 ProductToBuyController - GetAllCarts
+INFO  11:00:19 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:00:31 Getting Started
+INFO  11:00:31 ProductToBuyController - GetAllCarts
+INFO  11:00:31 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:00:34 Getting Started
+INFO  11:00:34 ProductToBuyController - GetAllCarts
+INFO  11:00:34 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:00:45 Getting Started
+INFO  11:00:45 ProductToBuyController - GetAllCarts
+INFO  11:00:45 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:00:50 Getting Started
+INFO  11:00:50 ProductToBuyController - GetAllCarts
+INFO  11:00:50 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:00:56 Getting Started
+INFO  11:00:56 ProductToBuyController - GetAllCarts
+INFO  11:00:56 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:01:08 Getting Started
+INFO  11:01:08 ProductToBuyController - GetAllCarts
+INFO  11:01:08 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:01:19 Getting Started
+INFO  11:01:19 ProductToBuyController - GetAllCarts
+INFO  11:01:19 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:01:28 Getting Started
+INFO  11:01:28 ProductToBuyController - GetAllCarts
+INFO  11:01:28 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:01:39 Getting Started
+INFO  11:01:39 ProductToBuyController - GetAllCarts
+INFO  11:01:39 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:01:43 Getting Started
+INFO  11:01:43 ProductToBuyController - GetAllCarts
+INFO  11:01:43 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:01:51 Getting Started
+INFO  11:01:51 ProductToBuyController - GetAllCarts
+INFO  11:01:51 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:02:45 Getting Started
+INFO  11:02:45 ProductToBuyController - GetAllCarts
+INFO  11:02:45 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:09:02 Getting Started
+INFO  11:09:02 ProductToBuyController - GetAllCarts
+INFO  11:09:02 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:17:04 Getting Started
+INFO  11:17:04 ProductToBuyController - GetAllCarts
+INFO  11:17:04 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:18:14 Getting Started
+INFO  11:18:14 ProductToBuyController - GetAllCarts
+INFO  11:18:14 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:36:15 Getting Started
+INFO  11:36:15 ProductToBuyController - GetAllCarts
+INFO  11:36:15 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:37:10 Getting Started
+INFO  11:37:10 ProductToBuyController - GetAllCarts
+INFO  11:37:10 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:51:14 Getting Started
+INFO  11:51:14 ProductToBuyController - GetAllCarts
+INFO  11:51:14 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:19:08 Getting Started
+INFO  12:19:08 ProductToBuyController - GetAllCarts
+INFO  12:19:08 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:19:43 Getting Started
+INFO  12:19:43 ProductToBuyController - GetAllCarts
+INFO  12:19:43 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:19:49 Getting Started
+INFO  12:19:49 ProductToBuyController - GetAllCarts
+INFO  12:19:49 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:20:35 Getting Started
+INFO  12:20:35 ProductToBuyController - GetAllCarts
+INFO  12:20:35 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:24:59 Getting Started
+INFO  12:24:59 ProductToBuyController - GetAllCarts
+INFO  12:24:59 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:26:37 Getting Started
+INFO  12:26:37 ProductToBuyController - GetAllCarts
+INFO  12:26:37 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:26:59 Getting Started
+INFO  12:26:59 ProductToBuyController - GetAllCarts
+INFO  12:26:59 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:27:04 Getting Started
+INFO  12:27:04 ProductToBuyController - GetAllCarts
+INFO  12:27:04 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:28:14 Getting Started
+INFO  12:28:14 ProductToBuyController - GetAllCarts
+INFO  12:28:14 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:30:10 Getting Started
+INFO  12:30:10 ProductToBuyController - GetAllCarts
+INFO  12:30:10 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:30:50 Getting Started
+INFO  12:30:50 ProductToBuyController - GetAllCarts
+INFO  12:30:50 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:30:52 Getting Started
+INFO  12:30:52 ProductToBuyController - GetAllCarts
+INFO  12:30:52 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:31:09 Getting Started
+INFO  12:31:09 ProductToBuyController - GetAllCarts
+INFO  12:31:09 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:32:55 Getting Started
+INFO  12:32:55 ProductToBuyController - GetAllCarts
+INFO  12:32:55 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:33:13 Getting Started
+INFO  12:33:13 ProductToBuyController - GetAllCarts
+INFO  12:33:14 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:33:31 Getting Started
+INFO  12:33:31 ProductToBuyController - GetAllCarts
+INFO  12:33:31 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:33:38 Getting Started
+INFO  12:33:38 ProductToBuyController - GetAllCarts
+INFO  12:33:38 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:33:40 Getting Started
+INFO  12:33:40 ProductToBuyController - GetAllCarts
+INFO  12:33:40 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:34:01 Getting Started
+INFO  12:34:01 ProductToBuyController - GetAllCarts
+INFO  12:34:01 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:34:21 Getting Started
+INFO  12:34:21 ProductToBuyController - GetAllCarts
+INFO  12:34:21 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:34:24 Getting Started
+INFO  12:34:24 ProductToBuyController - GetAllCarts
+INFO  12:34:24 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:36:43 Getting Started
+INFO  12:36:43 ProductToBuyController - GetAllCarts
+INFO  12:36:43 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:36:46 Getting Started
+INFO  12:36:46 ProductToBuyController - GetAllCarts
+INFO  12:36:46 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:37:46 Getting Started
+INFO  12:37:46 ProductToBuyController - GetAllCarts
+INFO  12:37:46 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:37:54 Getting Started
+INFO  12:37:54 ProductToBuyController - GetAllCarts
+INFO  12:37:54 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:38:01 Getting Started
+INFO  12:38:01 ProductToBuyController - GetAllCarts
+INFO  12:38:01 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:38:14 Getting Started
+INFO  12:38:14 ProductToBuyController - GetAllCarts
+INFO  12:38:14 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:38:17 Getting Started
+INFO  12:38:17 ProductToBuyController - GetAllCarts
+INFO  12:38:17 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:40:58 Getting Started
+INFO  12:40:58 ProductToBuyController - GetAllCarts
+INFO  12:40:58 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:41:04 Getting Started
+INFO  12:41:04 ProductToBuyController - GetAllCarts
+INFO  12:41:04 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:41:08 Getting Started
+INFO  12:41:08 ProductToBuyController - GetAllCarts
+INFO  12:41:08 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:41:10 Getting Started
+INFO  12:41:10 ProductToBuyController - GetAllCarts
+INFO  12:41:10 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:41:17 Getting Started
+INFO  12:41:17 ProductToBuyController - GetAllCarts
+INFO  12:41:17 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:41:19 Getting Started
+INFO  12:41:19 ProductToBuyController - GetAllCarts
+INFO  12:41:19 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:43:22 Getting Started
+INFO  12:43:22 ProductToBuyController - GetAllCarts
+INFO  12:43:22 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:45:12 Getting Started
+INFO  12:45:12 ProductToBuyController - GetAllCarts
+INFO  12:45:12 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:45:18 Getting Started
+INFO  12:45:18 ProductToBuyController - GetAllCarts
+INFO  12:45:18 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:45:32 Getting Started
+INFO  12:45:32 ProductToBuyController - GetAllCarts
+INFO  12:45:32 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:46:00 Getting Started
+INFO  12:46:00 ProductToBuyController - GetAllCarts
+INFO  12:46:00 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:46:06 Getting Started
+INFO  12:46:06 ProductToBuyController - GetAllCarts
+INFO  12:46:06 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:46:24 Getting Started
+INFO  12:46:24 ProductToBuyController - GetAllCarts
+INFO  12:46:24 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:46:40 Getting Started
+INFO  12:46:40 ProductToBuyController - GetAllCarts
+INFO  12:46:40 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:48:13 Getting Started
+INFO  12:48:13 ProductToBuyController - GetAllCarts
+INFO  12:48:13 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:48:19 Getting Started
+INFO  12:48:19 ProductToBuyController - GetAllCarts
+INFO  12:48:19 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:49:02 Getting Started
+INFO  12:49:02 ProductToBuyController - GetAllCarts
+INFO  12:49:02 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:49:07 Getting Started
+INFO  12:49:07 ProductToBuyController - GetAllCarts
+INFO  12:49:07 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:52:47 Getting Started
+INFO  12:52:47 ProductToBuyController - GetAllCarts
+INFO  12:52:48 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:55:04 Getting Started
+INFO  12:55:04 ProductToBuyController - GetAllCarts
+INFO  12:55:04 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:55:08 Getting Started
+INFO  12:55:08 ProductToBuyController - GetAllCarts
+INFO  12:55:08 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:55:12 Getting Started
+INFO  12:55:12 ProductToBuyController - GetAllCarts
+INFO  12:55:12 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:55:17 Getting Started
+INFO  12:55:17 ProductToBuyController - GetAllCarts
+INFO  12:55:17 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:55:42 Getting Started
+INFO  12:55:42 ProductToBuyController - GetAllCarts
+INFO  12:55:42 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:55:52 Getting Started
+INFO  12:55:52 ProductToBuyController - GetAllCarts
+INFO  12:55:52 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:56:59 Getting Started
+INFO  12:56:59 ProductToBuyController - GetAllCarts
+INFO  12:56:59 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:57:07 Getting Started
+INFO  12:57:07 ProductToBuyController - GetAllCarts
+INFO  12:57:07 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:57:10 Getting Started
+INFO  12:57:10 ProductToBuyController - GetAllCarts
+INFO  12:57:10 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:57:14 Getting Started
+INFO  12:57:14 ProductToBuyController - GetAllCarts
+INFO  12:57:14 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:57:18 Getting Started
+INFO  12:57:18 ProductToBuyController - GetAllCarts
+INFO  12:57:18 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:57:24 Getting Started
+INFO  12:57:24 ProductToBuyController - GetAllCarts
+INFO  12:57:24 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:57:42 Getting Started
+INFO  12:57:42 ProductToBuyController - GetAllCarts
+INFO  12:57:42 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:58:23 Getting Started
+INFO  12:58:23 ProductToBuyController - GetAllCarts
+INFO  12:58:23 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:58:25 Getting Started
+INFO  12:58:25 ProductToBuyController - GetAllCarts
+INFO  12:58:25 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:59:27 Getting Started
+INFO  12:59:27 ProductToBuyController - GetAllCarts
+INFO  12:59:27 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:00:30 Getting Started
+INFO  01:00:30 ProductToBuyController - GetAllCarts
+INFO  01:00:30 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:01:01 Getting Started
+INFO  01:01:01 ProductToBuyController - GetAllCarts
+INFO  01:01:01 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:01:44 Getting Started
+INFO  01:01:44 ProductToBuyController - GetAllCarts
+INFO  01:01:44 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:07:53 Getting Started
+INFO  01:07:53 ProductToBuyController - GetAllCarts
+INFO  01:07:53 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:08:22 Getting Started
+INFO  01:08:22 ProductToBuyController - GetAllCarts
+INFO  01:08:22 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:09:07 Getting Started
+INFO  01:09:07 ProductToBuyController - GetAllCarts
+INFO  01:09:07 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:09:15 Getting Started
+INFO  01:09:15 ProductToBuyController - GetAllCarts
+INFO  01:09:15 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:13:29 Getting Started
+INFO  01:13:29 ProductToBuyController - GetAllCarts
+INFO  01:13:29 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:15:35 Getting Started
+INFO  01:15:35 ProductToBuyController - GetAllCarts
+INFO  01:15:35 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:15:38 Getting Started
+INFO  01:15:38 ProductToBuyController - GetAllCarts
+INFO  01:15:38 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:15:40 Getting Started
+INFO  01:15:40 ProductToBuyController - GetAllCarts
+INFO  01:15:40 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:20:24 Getting Started
+INFO  01:20:24 ProductToBuyController - GetAllCarts
+INFO  01:20:24 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:20:57 Getting Started
+INFO  01:20:57 ProductToBuyController - GetAllCarts
+INFO  01:20:57 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:20:58 Getting Started
+INFO  01:20:58 ProductToBuyController - GetAllCarts
+INFO  01:20:58 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:21:01 Getting Started
+INFO  01:21:01 ProductToBuyController - GetAllCarts
+INFO  01:21:01 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:21:27 Getting Started
+INFO  01:21:27 ProductToBuyController - GetAllCarts
+INFO  01:21:27 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:21:31 Getting Started
+INFO  01:21:31 ProductToBuyController - GetAllCarts
+INFO  01:21:31 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:21:36 Getting Started
+INFO  01:21:36 ProductToBuyController - GetAllCarts
+INFO  01:21:36 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:22:04 Getting Started
+INFO  01:22:04 ProductToBuyController - GetAllCarts
+INFO  01:22:04 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:22:24 Getting Started
+INFO  01:22:24 ProductToBuyController - GetAllCarts
+INFO  01:22:24 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:22:28 Getting Started
+INFO  01:22:28 ProductToBuyController - GetAllCarts
+INFO  01:22:28 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:22:31 Getting Started
+INFO  01:22:31 ProductToBuyController - GetAllCarts
+INFO  01:22:31 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:22:36 Getting Started
+INFO  01:22:36 ProductToBuyController - GetAllCarts
+INFO  01:22:36 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:22:57 Getting Started
+INFO  01:22:57 ProductToBuyController - GetAllCarts
+INFO  01:22:57 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:22:59 Getting Started
+INFO  01:22:59 ProductToBuyController - GetAllCarts
+INFO  01:22:59 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:23:07 Getting Started
+INFO  01:23:07 ProductToBuyController - GetAllCarts
+INFO  01:23:07 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:23:08 Getting Started
+INFO  01:23:08 ProductToBuyController - GetAllCarts
+INFO  01:23:08 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:23:11 Getting Started
+INFO  01:23:11 ProductToBuyController - GetAllCarts
+INFO  01:23:11 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:23:13 Getting Started
+INFO  01:23:13 ProductToBuyController - GetAllCarts
+INFO  01:23:13 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:23:20 Getting Started
+INFO  01:23:20 ProductToBuyController - GetAllCarts
+INFO  01:23:20 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:23:22 Getting Started
+INFO  01:23:22 ProductToBuyController - GetAllCarts
+INFO  01:23:22 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:23:25 Getting Started
+INFO  01:23:25 ProductToBuyController - GetAllCarts
+INFO  01:23:25 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:23:34 Getting Started
+INFO  01:23:34 ProductToBuyController - GetAllCarts
+INFO  01:23:34 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:23:39 Getting Started
+INFO  01:23:39 ProductToBuyController - GetAllCarts
+INFO  01:23:39 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:23:40 Getting Started
+INFO  01:23:40 ProductToBuyController - GetAllCarts
+INFO  01:23:40 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:23:48 Getting Started
+INFO  01:23:48 ProductToBuyController - GetAllCarts
+INFO  01:23:48 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:23:49 Getting Started
+INFO  01:23:49 ProductToBuyController - GetAllCarts
+INFO  01:23:49 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:24:02 Getting Started
+INFO  01:24:02 ProductToBuyController - GetAllCarts
+INFO  01:24:02 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:24:24 Getting Started
+INFO  01:24:24 ProductToBuyController - GetAllCarts
+INFO  01:24:24 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:24:27 Getting Started
+INFO  01:24:27 ProductToBuyController - GetAllCarts
+INFO  01:24:27 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:24:33 Getting Started
+INFO  01:24:33 ProductToBuyController - GetAllCarts
+INFO  01:24:33 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:24:35 Getting Started
+INFO  01:24:35 ProductToBuyController - GetAllCarts
+INFO  01:24:35 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:24:44 Getting Started
+INFO  01:24:44 ProductToBuyController - GetAllCarts
+INFO  01:24:44 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:25:28 Getting Started
+INFO  01:25:28 ProductToBuyController - GetAllCarts
+INFO  01:25:28 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:25:31 Getting Started
+INFO  01:25:31 ProductToBuyController - GetAllCarts
+INFO  01:25:31 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:25:37 Getting Started
+INFO  01:25:37 ProductToBuyController - GetAllCarts
+INFO  01:25:37 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:25:38 Getting Started
+INFO  01:25:38 ProductToBuyController - GetAllCarts
+INFO  01:25:38 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:25:48 Getting Started
+INFO  01:25:48 ProductToBuyController - GetAllCarts
+INFO  01:25:48 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:27:47 Getting Started
+INFO  01:27:47 ProductToBuyController - GetAllCarts
+INFO  01:27:47 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:27:57 Getting Started
+INFO  01:27:57 ProductToBuyController - GetAllCarts
+INFO  01:27:57 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:28:01 Getting Started
+INFO  01:28:01 ProductToBuyController - GetAllCarts
+INFO  01:28:01 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:28:08 Getting Started
+INFO  01:28:08 ProductToBuyController - GetAllCarts
+INFO  01:28:08 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:28:14 Getting Started
+INFO  01:28:14 ProductToBuyController - GetAllCarts
+INFO  01:28:14 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:28:15 Getting Started
+INFO  01:28:15 ProductToBuyController - GetAllCarts
+INFO  01:28:15 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:28:29 Getting Started
+INFO  01:28:29 ProductToBuyController - GetAllCarts
+INFO  01:28:29 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:28:48 Getting Started
+INFO  01:28:48 Controller ready for creating new record 
+INFO  01:30:10 Getting Started
+INFO  01:30:10 Controller ready for creating new record 
+INFO  01:30:14 Getting Started
+INFO  01:30:14 ProductToBuyController - GetAllCarts
+INFO  01:30:14 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:31:19 Getting Started
+INFO  01:31:19 ProductToBuyController - GetAllCarts
+INFO  01:31:19 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:31:30 Getting Started
+INFO  01:31:30 ProductToBuyController - GetAllCarts
+INFO  01:31:30 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:32:28 Getting Started
+INFO  01:32:28 ProductToBuyController - GetAllCarts
+INFO  01:32:28 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:32:33 Getting Started
+INFO  01:32:33 ProductToBuyController - GetAllCarts
+INFO  01:32:33 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:32:36 Getting Started
+INFO  01:32:36 ProductToBuyController - GetAllCarts
+INFO  01:32:36 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:32:37 Getting Started
+INFO  01:32:37 ProductToBuyController - GetAllCarts
+INFO  01:32:37 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  01:33:39 Getting Started
+INFO  01:33:39 ProductToBuyController - GetAllCarts
+INFO  01:33:39 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:33:56 Getting Started
+INFO  01:33:56 ProductToBuyController - GetAllCarts
+INFO  01:33:56 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  01:37:43 Getting Started
+INFO  01:37:43 ProductToBuyController - GetAllCarts
+INFO  01:37:43 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:39:37 Getting Started
+INFO  01:39:37 ProductToBuyController - GetAllCarts
+INFO  01:39:37 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:39:50 Getting Started
+INFO  01:39:50 ProductToBuyController - GetAllCarts
+INFO  01:39:50 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:39:53 Getting Started
+INFO  01:39:53 ProductToBuyController - GetAllCarts
+INFO  01:39:53 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:40:08 Getting Started
+INFO  01:40:08 ProductToBuyController - GetAllCarts
+INFO  01:40:08 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:40:28 Getting Started
+INFO  01:40:28 ProductToBuyController - GetAllCarts
+INFO  01:40:28 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:42:16 Getting Started
+INFO  01:42:16 ProductToBuyController - GetAllCarts
+INFO  01:42:16 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:42:22 Getting Started
+INFO  01:42:22 ProductToBuyController - GetAllCarts
+INFO  01:42:22 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:42:31 Getting Started
+INFO  01:42:31 ProductToBuyController - GetAllCarts
+INFO  01:42:31 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:43:10 Getting Started
+INFO  01:43:10 ProductToBuyController - GetAllCarts
+INFO  01:43:10 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:43:43 Getting Started
+INFO  01:43:43 ProductToBuyController - GetAllCarts
+INFO  01:43:43 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:43:49 Getting Started
+INFO  01:43:49 ProductToBuyController - GetAllCarts
+INFO  01:43:49 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:43:54 Getting Started
+INFO  01:43:54 ProductToBuyController - GetAllCarts
+INFO  01:43:54 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:44:01 Getting Started
+INFO  01:44:01 ProductToBuyController - GetAllCarts
+INFO  01:44:01 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:44:15 Getting Started
+INFO  01:44:15 ProductToBuyController - GetAllCarts
+INFO  01:44:15 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:44:30 Getting Started
+INFO  01:44:30 ProductToBuyController - GetAllCarts
+INFO  01:44:30 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:44:36 Getting Started
+INFO  01:44:36 ProductToBuyController - GetAllCarts
+INFO  01:44:36 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:44:48 Getting Started
+INFO  01:44:48 ProductToBuyController - GetAllCarts
+INFO  01:44:48 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:44:58 Getting Started
+INFO  01:44:58 ProductToBuyController - GetAllCarts
+INFO  01:44:58 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:45:50 Getting Started
+INFO  01:45:50 ProductToBuyController - GetAllCarts
+INFO  01:45:50 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:46:23 Getting Started
+INFO  01:46:23 ProductToBuyController - GetAllCarts
+INFO  01:46:23 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:46:27 Getting Started
+INFO  01:46:27 ProductToBuyController - GetAllCarts
+INFO  01:46:27 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:47:12 Getting Started
+INFO  01:47:12 ProductToBuyController - GetAllCarts
+INFO  01:47:12 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:48:24 Getting Started
+INFO  01:48:24 ProductToBuyController - GetAllCarts
+INFO  01:48:24 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  01:48:39 Getting Started
+INFO  01:48:39 ProductToBuyController - GetAllCarts
+INFO  01:48:39 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:42:11 Application started. Press Ctrl+C to shut down.
+INFO  03:42:11 Hosting environment: Development
+INFO  03:42:11 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  03:42:46 Getting Started
+INFO  03:42:46 ProductToBuyController - GetAllCarts
+INFO  03:42:47 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:43:18 Getting Started
+INFO  03:43:18 Checking out
+INFO  03:43:27 Getting Started
+INFO  03:43:27 ProductToBuyController - GetAllCarts
+INFO  03:43:27 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:56:58 Getting Started
+INFO  03:56:58 ProductToBuyController - GetAllCarts
+INFO  03:56:58 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:57:00 Getting Started
+INFO  03:57:00 ProductToBuyController - GetAllCarts
+INFO  03:57:00 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:57:12 Getting Started
+INFO  03:57:12 ProductToBuyController - GetAllCarts
+INFO  03:57:12 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:58:54 Getting Started
+INFO  03:58:54 ProductToBuyController - GetAllCarts
+INFO  03:58:54 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:59:40 Getting Started
+INFO  03:59:40 ProductToBuyController - GetAllCarts
+INFO  03:59:40 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:59:56 Getting Started
+INFO  03:59:56 ProductToBuyController - GetAllCarts
+INFO  03:59:56 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  04:00:07 Getting Started
+INFO  04:00:07 ProductToBuyController - GetAllCarts
+INFO  04:00:07 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  04:02:13 Application started. Press Ctrl+C to shut down.
+INFO  04:02:13 Hosting environment: Development
+INFO  04:02:13 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  04:04:42 Application started. Press Ctrl+C to shut down.
+INFO  04:04:42 Hosting environment: Development
+INFO  04:04:42 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  04:06:30 Getting Started
+INFO  04:06:30 ProductToBuyController - GetAllCarts
+INFO  04:06:32 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:19:09 Application started. Press Ctrl+C to shut down.
+INFO  04:19:09 Hosting environment: Development
+INFO  04:19:09 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  04:21:18 Application started. Press Ctrl+C to shut down.
+INFO  04:21:18 Hosting environment: Development
+INFO  04:21:18 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  04:21:23 Getting Started
+INFO  04:21:23 ProductToBuyController - GetAllCarts
+INFO  04:21:24 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:22:27 Getting Started
+INFO  04:22:27 Controller ready for creating new record 
+INFO  04:22:41 Getting Started
+INFO  04:22:41 ProductToBuyController - GetAllCarts
+INFO  04:22:41 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:23:01 Getting Started
+INFO  04:23:01 Checking out
+INFO  04:36:05 Getting Started
+INFO  04:36:05 ProductToBuyController - GetAllCarts
+INFO  04:36:05 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:38:44 Getting Started
+INFO  04:38:44 ProductToBuyController - GetAllCarts
+INFO  04:38:44 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:38:58 Getting Started
+INFO  04:38:58 ProductToBuyController - GetAllCarts
+INFO  04:38:58 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:40:09 Getting Started
+INFO  04:40:09 ProductToBuyController - GetAllCarts
+INFO  04:40:09 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:42:50 Getting Started
+INFO  04:42:50 ProductToBuyController - GetAllCarts
+INFO  04:42:50 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:01:48 Getting Started
+INFO  05:01:48 ProductToBuyController - GetAllCarts
+INFO  05:01:48 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:01:56 Getting Started
+INFO  05:01:56 ProductToBuyController - GetAllCarts
+INFO  05:01:56 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:02:04 Getting Started
+INFO  05:02:04 Controller ready for creating new record 
+INFO  05:02:07 Getting Started
+INFO  05:02:07 ProductToBuyController - GetAllCarts
+INFO  05:02:07 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:02:26 Getting Started
+INFO  05:02:26 ProductToBuyController - GetAllCarts
+INFO  05:02:26 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  05:02:56 Getting Started
+INFO  05:02:56 ProductToBuyController - GetAllCarts
+INFO  05:02:56 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:03:19 Getting Started
+INFO  05:03:19 Controller ready for creating new record 
+INFO  05:03:22 Getting Started
+INFO  05:03:22 ProductToBuyController - GetAllCarts
+INFO  05:03:22 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:17:40 Application started. Press Ctrl+C to shut down.
+INFO  08:17:40 Hosting environment: Development
+INFO  08:17:40 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  08:22:18 Getting Started
+INFO  08:22:18 Controller ready for creating new record 
+INFO  08:22:22 Getting Started
+INFO  08:22:22 ProductToBuyController - GetAllCarts
+INFO  08:22:22 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:22:55 Getting Started
+INFO  08:22:55 ProductToBuyController - GetAllCarts
+INFO  08:22:55 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:23:06 Getting Started
+INFO  08:23:06 Controller ready for creating new record 
+INFO  08:23:09 Getting Started
+INFO  08:23:09 ProductToBuyController - GetAllCarts
+INFO  08:23:09 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:08:43 Getting Started
+INFO  11:08:43 Controller ready for creating new record 
+INFO  11:10:15 Getting Started
+INFO  11:10:15 Controller ready for creating new record 
+INFO  11:11:57 Getting Started
+INFO  11:11:57 Controller ready for creating new record 
+INFO  11:12:58 Getting Started
+INFO  11:12:58 Controller ready for creating new record 
+INFO  11:13:19 Getting Started
+INFO  11:13:19 Controller ready for creating new record 
+INFO  02:33:38 Application started. Press Ctrl+C to shut down.
+INFO  02:33:38 Hosting environment: Development
+INFO  02:33:38 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  02:42:20 Getting Started
+INFO  02:42:20 Controller ready for creating new record 
+INFO  02:42:24 Getting Started
+INFO  02:42:24 ProductToBuyController - GetAllCarts
+INFO  02:42:24 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  02:46:09 Getting Started
+INFO  02:46:09 ProductToBuyController - GetAllCarts
+INFO  02:46:09 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:04:13 Getting Started
+INFO  03:04:13 ProductToBuyController - GetAllCarts
+INFO  03:04:13 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:04:34 Getting Started
+INFO  03:04:34 Controller ready for creating new record 
+INFO  03:04:42 Getting Started
+INFO  03:04:42 ProductToBuyController - GetAllCarts
+INFO  03:04:42 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:07:54 Getting Started
+INFO  03:09:23 Getting Started
+INFO  03:09:23 ProductToBuyController - GetAllCarts
+INFO  03:09:23 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:18:15 Getting Started
+INFO  03:18:15 ProductToBuyController - GetAllCarts
+INFO  03:18:15 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:18:40 Getting Started
+INFO  03:21:49 Getting Started
+INFO  03:21:49 ProductToBuyController - GetAllCarts
+INFO  03:21:49 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:23:16 Getting Started
+INFO  03:23:16 ProductToBuyController - GetAllCarts
+INFO  03:23:16 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:23:54 Getting Started
+INFO  03:23:54 ProductToBuyController - GetAllCarts
+INFO  03:23:54 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:25:18 Getting Started
+INFO  03:25:18 ProductToBuyController - GetAllCarts
+INFO  03:25:18 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:48:17 Getting Started
+INFO  03:48:17 ProductToBuyController - GetAllCarts
+INFO  03:48:17 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:11:16 Getting Started
+INFO  04:11:16 ProductToBuyController - GetAllCarts
+INFO  04:11:16 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  04:57:43 Getting Started
+INFO  04:57:43 ProductToBuyController - GetAllCarts
+INFO  04:57:43 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:58:40 Getting Started
+INFO  04:58:40 ProductToBuyController - GetAllCarts
+INFO  04:58:40 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:00:20 Getting Started
+INFO  05:00:20 ProductToBuyController - GetAllCarts
+INFO  05:00:20 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:00:22 Getting Started
+INFO  05:00:22 ProductToBuyController - GetAllCarts
+INFO  05:00:22 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:00:59 Getting Started
+INFO  05:00:59 ProductToBuyController - GetAllCarts
+INFO  05:00:59 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:01:01 Getting Started
+INFO  05:01:01 ProductToBuyController - GetAllCarts
+INFO  05:01:01 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:01:03 Getting Started
+INFO  05:01:03 ProductToBuyController - GetAllCarts
+INFO  05:01:03 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:01:03 Getting Started
+INFO  05:01:03 ProductToBuyController - GetAllCarts
+INFO  05:01:03 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:01:05 Getting Started
+INFO  05:01:05 ProductToBuyController - GetAllCarts
+INFO  05:01:05 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:16:18 Getting Started
+INFO  05:16:18 ProductToBuyController - GetAllCarts
+INFO  05:16:18 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:16:41 Getting Started
+INFO  05:16:41 ProductToBuyController - GetAllCarts
+INFO  05:16:41 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:18:09 Getting Started
+INFO  05:18:09 ProductToBuyController - GetAllCarts
+INFO  05:18:09 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:25:07 Getting Started
+INFO  05:25:07 ProductToBuyController - GetAllCarts
+INFO  05:25:07 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:25:34 Getting Started
+INFO  05:25:34 Controller ready for creating new record 
+INFO  05:25:42 Getting Started
+INFO  05:25:42 ProductToBuyController - GetAllCarts
+INFO  05:25:42 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  05:25:52 Getting Started
+INFO  05:25:52 ProductToBuyController - GetAllCarts
+INFO  05:25:52 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  05:26:52 Getting Started
+INFO  05:26:52 ProductToBuyController - GetAllCarts
+INFO  05:26:52 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  06:22:47 Application started. Press Ctrl+C to shut down.
+INFO  06:22:47 Hosting environment: Development
+INFO  06:22:47 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  06:49:19 Application started. Press Ctrl+C to shut down.
+INFO  06:49:19 Hosting environment: Development
+INFO  06:49:19 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  06:49:41 Getting Started
+INFO  06:50:24 Getting Started
+INFO  07:07:47 Application started. Press Ctrl+C to shut down.
+INFO  07:07:47 Hosting environment: Development
+INFO  07:07:47 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  07:07:58 Getting Started
+INFO  07:11:15 Application started. Press Ctrl+C to shut down.
+INFO  07:11:15 Hosting environment: Development
+INFO  07:11:15 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  07:11:22 Getting Started
+INFO  07:21:03 Getting Started
+INFO  07:21:24 Getting Started
+INFO  07:38:32 Getting Started
+INFO  07:38:32 ProductToBuyController - GetAllCarts
+INFO  07:38:34 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:38:38 Getting Started
+INFO  07:38:38 ProductToBuyController - GetAllCarts
+INFO  07:38:38 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:38:55 Getting Started
+INFO  07:38:55 ProductToBuyController - GetAllCarts
+INFO  07:38:55 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:39:09 Getting Started
+INFO  07:39:09 ProductToBuyController - GetAllCarts
+INFO  07:39:09 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:39:11 Getting Started
+INFO  07:39:11 ProductToBuyController - GetAllCarts
+INFO  07:39:11 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:39:46 Getting Started
+INFO  07:39:46 ProductToBuyController - GetAllCarts
+INFO  07:39:46 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:39:48 Getting Started
+INFO  07:39:48 ProductToBuyController - GetAllCarts
+INFO  07:39:48 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:39:50 Getting Started
+INFO  07:39:50 ProductToBuyController - GetAllCarts
+INFO  07:39:50 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:39:55 Getting Started
+INFO  07:39:55 ProductToBuyController - GetAllCarts
+INFO  07:39:55 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:39:58 Getting Started
+INFO  07:39:58 ProductToBuyController - GetAllCarts
+INFO  07:39:58 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:40:10 Getting Started
+INFO  07:40:10 ProductToBuyController - GetAllCarts
+INFO  07:40:10 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:40:14 Getting Started
+INFO  07:40:14 ProductToBuyController - GetAllCarts
+INFO  07:40:14 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:40:55 Getting Started
+INFO  07:40:55 ProductToBuyController - GetAllCarts
+INFO  07:40:55 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:41:02 Getting Started
+INFO  07:41:02 ProductToBuyController - GetAllCarts
+INFO  07:41:02 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:41:06 Getting Started
+INFO  07:41:06 ProductToBuyController - GetAllCarts
+INFO  07:41:06 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:41:11 Getting Started
+INFO  07:41:11 ProductToBuyController - GetAllCarts
+INFO  07:41:11 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:41:16 Getting Started
+INFO  07:41:16 ProductToBuyController - GetAllCarts
+INFO  07:41:16 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:41:40 Getting Started
+INFO  07:41:40 ProductToBuyController - GetAllCarts
+INFO  07:41:40 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:41:42 Getting Started
+INFO  07:41:42 ProductToBuyController - GetAllCarts
+INFO  07:41:42 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:41:47 Getting Started
+INFO  07:41:47 ProductToBuyController - GetAllCarts
+INFO  07:41:47 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:41:59 Getting Started
+INFO  07:41:59 ProductToBuyController - GetAllCarts
+INFO  07:41:59 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:42:21 Getting Started
+INFO  07:42:21 ProductToBuyController - GetAllCarts
+INFO  07:42:21 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:44:28 Getting Started
+INFO  07:44:28 ProductToBuyController - GetAllCarts
+INFO  07:44:28 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:44:31 Getting Started
+INFO  07:44:31 ProductToBuyController - GetAllCarts
+INFO  07:44:31 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:44:43 Getting Started
+INFO  07:44:43 ProductToBuyController - GetAllCarts
+INFO  07:44:43 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  07:44:55 Getting Started
+INFO  07:44:55 ProductToBuyController - GetAllCarts
+INFO  07:44:55 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:45:21 Getting Started
+INFO  07:45:21 ProductToBuyController - GetAllCarts
+INFO  07:45:21 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:45:27 Getting Started
+INFO  07:45:27 ProductToBuyController - GetAllCarts
+INFO  07:45:27 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:45:47 Getting Started
+INFO  07:45:47 ProductToBuyController - GetAllCarts
+INFO  07:45:47 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:47:03 Getting Started
+INFO  07:47:03 ProductToBuyController - GetAllCarts
+INFO  07:47:03 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:49:38 Getting Started
+INFO  07:49:38 ProductToBuyController - GetAllCarts
+INFO  07:49:38 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:50:55 Getting Started
+INFO  07:50:55 ProductToBuyController - GetAllCarts
+INFO  07:50:55 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:51:12 Getting Started
+INFO  07:51:12 ProductToBuyController - GetAllCarts
+INFO  07:51:12 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:51:14 Getting Started
+INFO  07:51:14 ProductToBuyController - GetAllCarts
+INFO  07:51:14 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:52:07 Getting Started
+INFO  07:52:07 ProductToBuyController - GetAllCarts
+INFO  07:52:07 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:52:12 Getting Started
+INFO  07:52:12 ProductToBuyController - GetAllCarts
+INFO  07:52:12 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:52:53 Getting Started
+INFO  07:52:53 ProductToBuyController - GetAllCarts
+INFO  07:52:53 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:54:20 Getting Started
+INFO  07:54:20 ProductToBuyController - GetAllCarts
+INFO  07:54:20 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:57:34 Getting Started
+INFO  07:57:34 ProductToBuyController - GetAllCarts
+INFO  07:57:34 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:57:36 Getting Started
+INFO  07:57:36 ProductToBuyController - GetAllCarts
+INFO  07:57:36 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:57:37 Getting Started
+INFO  07:57:37 ProductToBuyController - GetAllCarts
+INFO  07:57:37 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:57:39 Getting Started
+INFO  07:57:39 ProductToBuyController - GetAllCarts
+INFO  07:57:39 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:57:42 Getting Started
+INFO  07:57:42 ProductToBuyController - GetAllCarts
+INFO  07:57:42 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:57:44 Getting Started
+INFO  07:57:44 ProductToBuyController - GetAllCarts
+INFO  07:57:44 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:57:49 Getting Started
+INFO  07:57:49 ProductToBuyController - GetAllCarts
+INFO  07:57:49 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:57:52 Getting Started
+INFO  07:57:52 ProductToBuyController - GetAllCarts
+INFO  07:57:52 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:57:54 Getting Started
+INFO  07:57:54 ProductToBuyController - GetAllCarts
+INFO  07:57:54 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:57:55 Getting Started
+INFO  07:57:55 ProductToBuyController - GetAllCarts
+INFO  07:57:55 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:57:59 Getting Started
+INFO  07:57:59 ProductToBuyController - GetAllCarts
+INFO  07:57:59 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:58:09 Getting Started
+INFO  07:58:09 ProductToBuyController - GetAllCarts
+INFO  07:58:09 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:58:11 Getting Started
+INFO  07:58:11 ProductToBuyController - GetAllCarts
+INFO  07:58:11 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:58:13 Getting Started
+INFO  07:58:13 ProductToBuyController - GetAllCarts
+INFO  07:58:13 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:58:14 Getting Started
+INFO  07:58:14 ProductToBuyController - GetAllCarts
+INFO  07:58:14 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:58:17 Getting Started
+INFO  07:58:17 ProductToBuyController - GetAllCarts
+INFO  07:58:17 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:58:19 Getting Started
+INFO  07:58:19 ProductToBuyController - GetAllCarts
+INFO  07:58:19 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:58:22 Getting Started
+INFO  07:58:22 ProductToBuyController - GetAllCarts
+INFO  07:58:22 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:58:25 Getting Started
+INFO  07:58:25 ProductToBuyController - GetAllCarts
+INFO  07:58:25 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:58:26 Getting Started
+INFO  07:58:26 ProductToBuyController - GetAllCarts
+INFO  07:58:26 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:58:27 Getting Started
+INFO  07:58:27 ProductToBuyController - GetAllCarts
+INFO  07:58:27 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:58:30 Getting Started
+INFO  07:58:30 ProductToBuyController - GetAllCarts
+INFO  07:58:30 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:58:32 Getting Started
+INFO  07:58:32 ProductToBuyController - GetAllCarts
+INFO  07:58:32 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  07:58:34 Getting Started
+INFO  07:58:34 ProductToBuyController - GetAllCarts
+INFO  07:58:34 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:53:17 Getting Started
+INFO  08:53:17 ProductToBuyController - GetAllCarts
+INFO  08:53:17 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:53:21 Getting Started
+INFO  08:53:21 ProductToBuyController - GetAllCarts
+INFO  08:53:21 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:53:23 Getting Started
+INFO  08:53:23 ProductToBuyController - GetAllCarts
+INFO  08:53:23 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:53:25 Getting Started
+INFO  08:53:25 ProductToBuyController - GetAllCarts
+INFO  08:53:25 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:53:43 Getting Started
+INFO  08:53:43 ProductToBuyController - GetAllCarts
+INFO  08:53:43 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:53:45 Getting Started
+INFO  08:53:45 ProductToBuyController - GetAllCarts
+INFO  08:53:45 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  08:56:05 Getting Started
+INFO  08:56:11 Getting Started
+INFO  09:03:20 Getting Started
+INFO  09:03:20 Controller ready for creating new record 
+INFO  09:03:44 Getting Started
+INFO  09:03:44 ProductToBuyController - GetAllCarts
+INFO  09:03:44 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:05:05 Getting Started
+INFO  09:05:29 Getting Started
+INFO  09:05:29 Controller ready for creating new record 
+INFO  09:05:37 Getting Started
+INFO  09:05:37 ProductToBuyController - GetAllCarts
+INFO  09:05:37 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:05:45 Getting Started
+INFO  09:05:45 ProductToBuyController - GetAllCarts
+INFO  09:05:45 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:06:17 Getting Started
+INFO  09:06:17 Controller ready for creating new record 
+INFO  09:06:33 Getting Started
+INFO  09:06:33 ProductToBuyController - GetAllCarts
+INFO  09:06:33 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:07:52 Getting Started
+INFO  09:07:52 Controller ready for creating new record 
+INFO  09:08:01 Getting Started
+INFO  09:08:01 ProductToBuyController - GetAllCarts
+INFO  09:08:01 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:56:37 Getting Started
+INFO  09:56:37 Controller ready for creating new record 
+INFO  09:56:42 Getting Started
+INFO  09:56:42 ProductToBuyController - GetAllCarts
+INFO  09:56:42 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:58:04 Getting Started
+INFO  09:58:04 ProductToBuyController - GetAllCarts
+INFO  09:58:04 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:58:15 Getting Started
+INFO  09:58:15 ProductToBuyController - GetAllCarts
+INFO  09:58:15 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:58:42 Getting Started
+INFO  09:58:42 ProductToBuyController - GetAllCarts
+INFO  09:58:42 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:58:46 Getting Started
+INFO  09:58:46 ProductToBuyController - GetAllCarts
+INFO  09:58:46 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:58:48 Getting Started
+INFO  09:58:48 ProductToBuyController - GetAllCarts
+INFO  09:58:48 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:59:16 Getting Started
+INFO  09:59:16 ProductToBuyController - GetAllCarts
+INFO  09:59:16 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:59:17 Getting Started
+INFO  09:59:17 ProductToBuyController - GetAllCarts
+INFO  09:59:17 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  09:59:21 Getting Started
+INFO  09:59:21 ProductToBuyController - GetAllCarts
+INFO  09:59:21 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:00:02 Getting Started
+INFO  10:00:02 ProductToBuyController - GetAllCarts
+INFO  10:00:02 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:00:19 Getting Started
+INFO  10:00:19 ProductToBuyController - GetAllCarts
+INFO  10:00:19 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:00:20 Getting Started
+INFO  10:00:20 ProductToBuyController - GetAllCarts
+INFO  10:00:20 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:05:26 Getting Started
+INFO  10:05:26 ProductToBuyController - GetAllCarts
+INFO  10:05:26 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  10:59:52 Getting Started
+INFO  10:59:52 ProductToBuyController - GetAllCarts
+INFO  10:59:52 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:01:01 Getting Started
+INFO  11:01:01 ProductToBuyController - GetAllCarts
+INFO  11:01:01 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:07:54 Getting Started
+INFO  11:07:54 ProductToBuyController - GetAllCarts
+INFO  11:07:54 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:20:32 Getting Started
+INFO  11:20:32 ProductToBuyController - GetAllCarts
+INFO  11:20:32 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  11:20:36 Getting Started
+INFO  11:20:36 ProductToBuyController - GetAllCarts
+INFO  11:20:36 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:24:13 Getting Started
+INFO  11:24:13 ProductToBuyController - GetAllCarts
+INFO  11:24:14 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  11:30:46 Getting Started
+INFO  11:30:46 Controller ready for creating new record 
+INFO  11:30:52 Getting Started
+INFO  11:30:52 ProductToBuyController - GetAllCarts
+INFO  11:30:52 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  12:10:07 Getting Started
+INFO  12:10:07 Controller ready for creating new record 
+INFO  12:38:52 Getting Started
+INFO  12:38:52 Controller ready for creating new record 
+INFO  12:38:56 Getting Started
+INFO  12:38:56 ProductToBuyController - GetAllCarts
+INFO  12:38:56 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:42:01 Getting Started
+INFO  12:42:01 Controller ready for creating new record 
+INFO  12:43:05 Getting Started
+INFO  12:43:05 Controller ready for creating new record 
+INFO  12:43:12 Getting Started
+INFO  12:43:12 ProductToBuyController - GetAllCarts
+INFO  12:43:12 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:44:03 Getting Started
+INFO  12:44:03 ProductToBuyController - GetAllCarts
+INFO  12:44:03 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:45:04 Getting Started
+INFO  12:45:04 ProductToBuyController - GetAllCarts
+INFO  12:45:04 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:45:22 Getting Started
+INFO  12:45:22 Controller ready for creating new record 
+INFO  12:45:27 Getting Started
+INFO  12:45:27 ProductToBuyController - GetAllCarts
+INFO  12:45:27 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  10:54:24 Application started. Press Ctrl+C to shut down.
+INFO  10:54:24 Hosting environment: Development
+INFO  10:54:24 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  11:56:26 Getting Started
+INFO  11:56:26 ProductToBuyController - GetAllCarts
+INFO  11:56:29 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:34:02 Getting Started
+INFO  12:34:02 ProductToBuyController - GetAllCarts
+INFO  12:34:02 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  12:34:07 Getting Started
+INFO  12:34:07 ProductToBuyController - GetAllCarts
+INFO  12:34:07 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  01:24:46 Getting Started
+INFO  01:24:46 ProductToBuyController - GetAllCarts
+INFO  01:24:46 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:29:54 Getting Started
+INFO  01:29:54 ProductToBuyController - GetAllCarts
+INFO  01:29:54 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:30:13 Getting Started
+INFO  01:30:13 Controller ready for creating new record 
+INFO  01:30:22 Getting Started
+INFO  01:30:22 ProductToBuyController - GetAllCarts
+INFO  01:30:22 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:30:46 Getting Started
+INFO  01:30:46 Controller ready for creating new record 
+INFO  01:30:49 Getting Started
+INFO  01:30:50 ProductToBuyController - GetAllCarts
+INFO  01:30:50 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:31:37 Getting Started
+INFO  01:31:37 Controller ready for creating new record 
+INFO  01:31:40 Getting Started
+INFO  01:31:40 ProductToBuyController - GetAllCarts
+INFO  01:31:40 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:31:49 Getting Started
+INFO  01:31:49 ProductToBuyController - GetAllCarts
+INFO  01:31:49 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  01:32:10 Getting Started
+INFO  01:32:10 ProductToBuyController - GetAllCarts
+INFO  01:32:10 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:44:44 Getting Started
+INFO  01:44:44 ProductToBuyController - GetAllCarts
+INFO  01:44:44 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  02:19:59 Getting Started
+INFO  02:19:59 Controller ready for creating new record 
+INFO  02:20:02 Getting Started
+INFO  02:20:02 ProductToBuyController - GetAllCarts
+INFO  02:20:02 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  02:25:32 Getting Started
+INFO  02:25:32 Controller ready for creating new record 
+INFO  02:25:35 Getting Started
+INFO  02:25:35 ProductToBuyController - GetAllCarts
+INFO  02:25:35 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  02:25:56 Getting Started
+INFO  02:25:56 Controller ready for creating new record 
+INFO  02:25:58 Getting Started
+INFO  02:25:58 ProductToBuyController - GetAllCarts
+INFO  02:25:58 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  02:26:36 Getting Started
+INFO  02:26:36 ProductToBuyController - GetAllCarts
+INFO  02:26:36 ProceedToBuyController - GetAllWishList - All Carts Fetched
+INFO  03:40:54 Getting Started
+INFO  03:40:54 Controller ready for creating new record 
+INFO  03:40:56 Getting Started
+INFO  03:40:56 Controller ready for creating new record 
+INFO  03:41:04 Getting Started
+INFO  03:41:04 ProductToBuyController - GetAllCarts
+INFO  03:41:04 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:42:02 Getting Started
+INFO  03:42:02 ProductToBuyController - GetAllCarts
+INFO  03:42:03 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:45:03 Getting Started
+INFO  03:45:03 ProductToBuyController - GetAllCarts
+INFO  03:45:03 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:46:51 Getting Started
+INFO  03:46:51 ProductToBuyController - GetAllCarts
+INFO  03:46:51 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:47:03 Getting Started
+INFO  03:47:03 ProductToBuyController - GetAllCarts
+INFO  03:47:03 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:49:03 Getting Started
+INFO  03:49:03 ProductToBuyController - GetAllCarts
+INFO  03:49:03 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:50:04 Getting Started
+INFO  03:50:04 ProductToBuyController - GetAllCarts
+INFO  03:50:04 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:57:07 Getting Started
+INFO  03:57:07 Controller ready for creating new record 
+INFO  03:57:11 Getting Started
+INFO  03:57:11 ProductToBuyController - GetAllCarts
+INFO  03:57:11 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:58:04 Getting Started
+INFO  03:58:04 ProductToBuyController - GetAllCarts
+INFO  03:58:04 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  03:59:05 Getting Started
+INFO  03:59:05 ProductToBuyController - GetAllCarts
+INFO  03:59:05 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:00:20 Getting Started
+INFO  04:00:20 ProductToBuyController - GetAllCarts
+INFO  04:00:20 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:00:34 Getting Started
+INFO  04:00:34 Controller ready for creating new record 
+INFO  04:00:36 Getting Started
+INFO  04:00:36 ProductToBuyController - GetAllCarts
+INFO  04:00:36 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:03:16 Getting Started
+INFO  04:03:16 ProductToBuyController - GetAllCarts
+INFO  04:03:16 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:20:21 Application started. Press Ctrl+C to shut down.
+INFO  04:20:21 Hosting environment: Development
+INFO  04:20:21 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  04:21:24 Getting Started
+INFO  04:21:24 ProductToBuyController - GetAllCarts
+INFO  04:21:25 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:21:44 Getting Started
+INFO  04:21:44 ProductToBuyController - GetAllCarts
+INFO  04:21:44 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:22:27 Getting Started
+INFO  04:22:27 ProductToBuyController - GetAllCarts
+INFO  04:22:27 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  04:23:51 Getting Started
+INFO  04:23:51 Controller ready for creating new record 
+INFO  04:31:36 Getting Started
+INFO  04:31:36 ProductToBuyController - GetAllCarts
+INFO  04:31:36 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  06:44:53 Getting Started
+INFO  06:44:53 ProductToBuyController - GetAllCarts
+INFO  06:44:53 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  01:34:19 Application started. Press Ctrl+C to shut down.
+INFO  01:34:19 Hosting environment: Development
+INFO  01:34:19 Content root path: C:\Users\2063635\source\repos\ProceedToBuy
+INFO  01:42:00 Getting Started
+INFO  01:42:00 ProductToBuyController - GetAllCarts
+INFO  01:42:02 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  02:17:19 Getting Started
+INFO  02:17:19 Controller ready for creating new record 
+INFO  02:27:03 Getting Started
+INFO  02:27:03 Controller ready for creating new record 
+INFO  02:28:56 Getting Started
+INFO  02:28:56 Controller ready for creating new record 
+INFO  02:30:36 Getting Started
+INFO  02:30:36 Controller ready for creating new record 
+INFO  02:31:42 Getting Started
+INFO  02:31:42 ProductToBuyController - GetAllCarts
+INFO  02:31:42 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  02:34:30 Getting Started
+INFO  02:34:30 Controller ready for creating new record 
+INFO  02:34:33 Getting Started
+INFO  02:34:33 ProductToBuyController - GetAllCarts
+INFO  02:34:33 ProceedToBuyController - GetAllCarts - All Carts Fetched
+INFO  02:34:52 Getting Started
+INFO  02:34:52 Controller ready for creating new record 
+INFO  02:34:54 Getting Started
+INFO  02:34:54 ProductToBuyController - GetAllCarts
+INFO  02:34:54 ProceedToBuyController - GetAllCarts - All Carts Fetched
